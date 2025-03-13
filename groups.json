@@ -1,0 +1,25 @@
+{
+    "groups": {
+        "-1002468988208": {
+            "serial": 1,
+            "name": "Trading bot community"
+        },
+        "-4713255088": {
+            "serial": 2,
+            "name": "Group 2"
+        },
+        "-1002279590547": {
+            "name": "Jay Sir Check",
+            "serial": 3
+        },
+        "-1002262989255": {
+            "name": "Again Check",
+            "serial": 4
+        },
+        "-1002514493661": {
+            "name": "Target bot test",
+            "serial": 5
+        }
+    },
+    "next_serial": 6
+}

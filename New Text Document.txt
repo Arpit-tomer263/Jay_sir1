@@ -1,0 +1,45 @@
+Bot user name is - @tatristrade_bot
+Bot Token is - 7722341758:AAGL41u5KZz5_KKccCOM2t5qau_nyXfx4uo
+Bot share link - https://t.me/tatristrade_bot
+
+
+
+## Project Workflow: IQ Option Stock Market Alert with Telegram Image Notification  
+
+### 1. Initialization & Setup  
+- Obtain & authenticate IQ Option API with your API key.  
+- Set up the Telegram bot and obtain its API token.  
+- Create a database or dictionary to store user-defined market price conditions.  
+
+### 2. Fetch Stock Market Data  
+- Connect to the **IQ Option API** to fetch real-time stock market prices.  
+- Define a loop to fetch stock price data at a fixed interval (e.g., every second or minute).  
+- Store & track historical data if needed.  
+
+### 3. User Input & Monitoring  
+- Allow users to:  
+  - Select stock symbols (e.g., AAPL, TSLA, etc.).  
+  - Set target price levels (e.g., notify when AAPL reaches $200).  
+  - Provide image preferences for Telegram notifications.  
+  - Choose Telegram groups for notifications.  
+
+### 4. Price Condition Checking  
+- Continuously compare real-time stock prices with user-defined thresholds.  
+- When a stock price **matches or exceeds the target**, trigger the next step.  
+
+### 5. Image Generation  
+- Generate an image dynamically based on:  
+  - Stock data (e.g., price, time, trend).  
+  - User-selected themes or predefined templates.  
+- Use AI-based image generation (e.g., DALL·E, Stable Diffusion) or pre-defined chart templates.  
+
+### 6. Sending Notifications to Telegram  
+- Format the alert message with:  
+  - Stock symbol & current price.  
+  - Time of alert.  
+  - The generated image.  
+- Send the alert to the **user’s specified Telegram group**.  
+
+### 7. Logging & Continuous Monitoring  
+- Log alerts for future reference.  
+- Continue monitoring the stock market for new alerts.  
